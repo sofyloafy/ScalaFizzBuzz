@@ -4,8 +4,9 @@ import org.scalatest.matchers.should
 class FizzBuzzTest extends AnyFlatSpec with should.Matchers {
   var FizzBuzz = new FizzBuzz
 
-  "FizzBuzz" should "return 1" in {
+  "FizzBuzz" should "return number" in {
     FizzBuzz.calculate(1) should be ("1")
+    FizzBuzz.calculate(4) should be ("4")
   }
 
   "FizzBuzz" should "return Fizz for multiples of 3" in {

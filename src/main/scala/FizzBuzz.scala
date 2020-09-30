@@ -5,7 +5,7 @@ case class FizzBuzz() {
     } else if (number % 5 == 0){
       "Buzz"
     } else {
-      "1"
+      number.toString
     }
   }
 
