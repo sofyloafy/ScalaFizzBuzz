@@ -21,5 +21,7 @@ class FizzBuzzTest extends AnyFlatSpec with should.Matchers {
 
   }
 
-
+  "FizzBuzz" should "return FizzBuzz for 15" in {
+    FizzBuzz.calculate(15) should be ("FizzBuzz")
+  }
 }
